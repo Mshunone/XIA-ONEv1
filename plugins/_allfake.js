@@ -1,7 +1,7 @@
 const moment = require('moment-timezone')
 let handler = m => m
 handler.all = async function (m) {
-	let pp = 'https://telegra.ph/file/2d06f0936842064f6b3bb.png'
+	let pp = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -10,9 +10,9 @@ handler.all = async function (m) {
         global.fetch = require('node-fetch')
         const _uptime = process.uptime() * 1000
         const u = await conn.clockString(_uptime)
-        global.run = '𝙍𝙪𝙣𝙩𝙞𝙢𝙚' + ' ' + u
+        global.run = 'RUNTIME..' + ' ' + u
         global.ucapan = ucapan()
-        global.col = 'https://telegra.ph/file/e44b8c524d9b081d3cab0.jpg'
+        global.col = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 		global.users = db.data.users[m.sender]
 		global.chats = db.data.chats[m.chat]
@@ -68,7 +68,7 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"by : The.sad.boy01","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"by :「©SaxiaV1˘Botz 汉」","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
             const ftoko = {
@@ -117,7 +117,7 @@ key: {
 		"groupInviteMessage": {
 			"groupJid": "6282331033919-1625305606@g.us",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚄1�71ￄ1�77 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶄ1�71ￄ1�77 ◄1�71ￄ1�77", 
+			"groupName": "Saxia Officiall", 
             "caption": wm, 
             'jpegThumbnail': fs.readFileSync('./src/logo.jpg')
 		}
